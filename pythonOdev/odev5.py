@@ -11,3 +11,12 @@ def hesap_makinesi(sayi1, sayi2, islem):
         return sayi1 / sayi2
     else:
         return "Geçersiz işlem!"
+print("******************************")
+
+def yas(yas):
+    a=100-yas
+    print(f"{a} yıl sonra 100 yasındasınız")
+
+yas2= yas(12)
+
+print("********************")
